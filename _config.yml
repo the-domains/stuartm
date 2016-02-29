@@ -1,28 +1,40 @@
-name: StuartM
 favicon: null
-layout_spectrum: 0.42659182799980044
-typography_spectrum: 0.11327728722244501
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: StuartM
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.7976391
+  brandStrength: 0.8284004188608378
+  lightness: 0.4435076
   brandColors:
     - '#3C493F'
     - '#7E8D85'
     - '#B3BFB8'
     - '#F0F7F4'
     - '#A2E3C4'
-  brandStrength: 0.8284004188608378
-  lightness: 0.3785299591254443
-  saturation: 0.01428760914131999
-  rhythmicContrast: 0.08467263006605208
-purpose: []
+  rhythmicContrast: 0.589376
+typography_spectrum: 0.8693086
+layout_spectrum: 0.7655987
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
